@@ -35,7 +35,7 @@ namespace ScrapperSaraAin
             //httpClient.DefaultRequestHeaders.Add("Cookie", "ASP.NET_SessionId=b2ib4lgl4dflvbb12kqn3jr2");
             httpClient.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.68");
 
-            DateTime datelimit = new DateTime(2013, 1, 1);//date limit
+            DateTime datelimit = new DateTime(2013,1,1);//date limit
 
             bool conditionMet = false;
 
